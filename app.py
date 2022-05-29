@@ -8,7 +8,7 @@ CORS(app)
 
 @app.route('/')
 def landing_page():
-    return render_template("landing_page.html")
+    return render_template("base.html")
 
 @app.route('/user/<name>')
 def user(name):
